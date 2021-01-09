@@ -17,19 +17,18 @@ Detect & Blur Faces.
 
 ## Getting started
 
-Before clone this repo, install the required libs:
 
-```
-brew install imagemagick
-brew install graphicsmagick
-brew install imagemagick --with-webp
-npm install gm
-```
 
-1. Clone this repo using `https://https://github.com/hullistudio/blur-face-nodejs.git`
-2. Move to the appropriate directory: `cd blur-face-nodejs`.<br />
-3. Run `yarn` or `npm install` to install dependencies.<br />
-4. Run `node face_detection.js ./data/face.jpeg`.
+```console
+// before clone this repo, install the required libs
+$ brew install imagemagick graphicsmagick && npm install gm
+
+// move to the appropriate directory and install dependencies
+$ cd blur-face-nodejs && npm install 
+
+// run 
+$ node face_detection.js ./data/face.jpeg
+```
 
 ## Links
 
